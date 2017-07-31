@@ -1,8 +1,8 @@
-# Galactica
+# Galacta
 
 ## Background
 
-Galactica is a shoot'em'up game based around simple controls - it is intended to be flashy, easy to learn, and fun. A player can move using the WASD keys and fire using the space bar. Enemies of progressively increasing difficulty will attack, and you must hold them off to survive!
+Galacta is a shoot'em'up game based around simple controls and inspired by the classic arcade game Galaga - it is intended to be flashy, easy to learn, and fun. A player can move using the WASD keys and fire using the space bar. Enemies of progressively increasing difficulty will attack, and you must hold them off to survive!
 
 ## Functionality and MVP
 
@@ -16,9 +16,13 @@ Users should be able to...
 
 -Enemies should shoot back and damage the player
 
--Enemies should grow more difficult over time
+-There should be multiple stages with increasing difficulty
 
-In addition, the project will include a Production README.
+In addition, the project will include:
+
+-A production README
+
+-Web hosting
 
 ## Wireframes
 
