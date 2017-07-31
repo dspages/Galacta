@@ -24,6 +24,8 @@ In addition, the project will include a Production README.
 
 The app will consist of a single screen with a canvas. Buttons to reset, pause, and mute the game should also exist.
 
+![wireframes](images/js_wireframe.jpeg)
+
 ## Architecture and technologies
 
 The game will be made in vanilla JS using canvas. Webpack will be used to bundle and serve the actual content. Subclasses should be used for different parts of the game to support a modular, object-oriented design.
