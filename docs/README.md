@@ -26,7 +26,7 @@ In addition, the project will include:
 
 ## Wireframes
 
-The app will consist of a single screen with a canvas. Buttons to reset, pause, and mute the game should also exist.
+The app will consist of a single screen with a canvas. Buttons to reset, pause, and mute the game should also exist. In addition, links will be available to the project repo and author linkedin.
 
 ![wireframes](images/js_wireframe.jpeg)
 
