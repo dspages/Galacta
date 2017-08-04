@@ -1,8 +1,8 @@
 # Galacta
 
-# Live site link
+## Live site link
 
-[Galacta live][live]
+[Click here to play the game now!][live]
 
 [live]: https://dspages.github.io/Galacta/
 
@@ -66,4 +66,4 @@ Galactica was programmed in a week by Daniel Pages using Vanilla JavaScript with
 
 Art assets by Skorpio
 
-[artist link](https://opengameart.org/content/space-ship-construction-kit)
+[Artist Link](https://opengameart.org/content/space-ship-construction-kit)
