@@ -33,7 +33,9 @@ If the player is hit too many times without finding a hit point powerup and runs
 
 ![you lose](https://github.com/dspages/Galacta/blob/master/docs/images/ScreenShot6.png)
 
-## Code snippets
+Other minor features include the ability to pause the game with the "p" key, and an intro screen that informs the user of the game rules.
+
+## Code snippet
 
 The MovingObject parent class encompasses several types of children: PlayerShip, Weapon, Powerup, Scenery, and Debris are all subclasses of MovingObject. This class inheritance pattern allows me to place general logic related to movement inside the MovingObject class, such as movement, acceleration, rotation, angular velocity, collision detection, damage infliction, destruction, and edge detection.
 
@@ -58,10 +60,10 @@ A hierarchical design is likewise used to allow each of the ten types of weapon 
 
 ## Implementation and technology
 
-Galactica was programmed in a week by Daniel Pages using Vanilla JavaScript with an HTML canvas.
+Galactica was programmed in a week by Daniel Pages using Vanilla JavaScript with an HTML canvas. Webpack was used to aid in bundling and serving the finished product.
 
 ## Attributions
 
 Art assets by Skorpio
 
-https://opengameart.org/content/space-ship-construction-kit
+[artist link](https://opengameart.org/content/space-ship-construction-kit)
