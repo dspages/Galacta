@@ -1,0 +1,2 @@
+# Galacta
+Production readme placeholder
