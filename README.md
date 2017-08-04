@@ -33,6 +33,29 @@ If the player is hit too many times without finding a hit point powerup and runs
 
 ![you lose](docs/images/ScreenShot6)
 
+## Code snippets
+
+The MovingObject parent class encompasses several types of children: PlayerShip, Weapon, Powerup, Scenery, and Debris are all subclasses of MovingObject. This class inheritance pattern allows me to place general logic related to movement inside the MovingObject class, such as movement, acceleration, rotation, angular velocity, collision detection, damage infliction, destruction, and edge detection.
+
+```Javascript
+move(deltaT){
+  let movX = (this.vel[0] * deltaT/1000) + this.pos[0];
+  let movY = (this.vel[1] * deltaT/1000) + this.pos[1];
+  if(this.edgeBehavior==="stop"){
+    movX = Math.max(Math.min(movX, 750), 50);
+    movY = Math.max(Math.min(movY, 550), 300);
+  }
+  if(this.edgeBehavior==="destroy"){
+    if(movX>800|movX<0) {this.remove();}
+    if(movY>600|movY<0) {this.remove();}
+  }
+  this.pos = [movX,movY];
+  this.rot = this.rot + (this.angVel * deltaT/1000);
+}
+```
+
+A hierarchical design is likewise used to allow each of the ten types of weapon to have common behaviors, while modifying each of the specific attributes of a given weapon including speed, hitbox size, damage, and fire rate.
+
 ## Implementation and technology
 
 Galactica was programmed in a week by Daniel Pages using Vanilla JavaScript with an HTML canvas.
