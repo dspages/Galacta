@@ -8,7 +8,7 @@
 
 ## Background
 
-Galacta is a shoot'em'up game based around simple controls and inspired by the classic arcade game Galaga - it is intended to be flashy, easy to learn, and fun. A player can move using the WASD keys and fire using the space bar. Enemies of progressively increasing difficulty will attack, and you must hold them off to survive!
+Galacta is a shoot'em'up game based around simple controls and inspired by the classic arcade game Galaga - it is intended to be flashy, easy to learn, and fun. A player can move using the WASD keys and fire using the shift key. Enemies of progressively increasing difficulty will attack, and you must hold them off to survive!
 
 ## Features
 
