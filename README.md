@@ -8,7 +8,7 @@
 
 ## Background
 
-Galacta is a shoot'em'up game based around simple controls and inspired by the classic arcade game Galaga - it is intended to be flashy, easy to learn, and fun. A player can move using the WASD keys and fire using the space bar. Enemies of progressively increasing difficulty will attack, and you must hold them off to survive!
+Galacta is a shoot'em'up game based around simple controls and inspired by the classic arcade game Galaga - it is intended to be flashy, easy to learn, and fun. A player can move using the WASD keys and fire using the shift key. Enemies of progressively increasing difficulty will attack, and you must hold them off to survive!
 
 ## Features
 
@@ -63,6 +63,8 @@ A hierarchical design is likewise used to allow each of the ten types of weapon 
 Galactica was programmed in a week by Daniel Pages using Vanilla JavaScript with an HTML canvas. Webpack was used to aid in bundling and serving the finished product.
 
 ## Attributions
+
+Class inheritance design pattern and DOM manipulation logic inspired by App Academy's "Asteroids" tutorial.
 
 Art assets by Skorpio
 

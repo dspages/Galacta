@@ -1,0 +1,14 @@
+.whole-view{
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+  padding: 20px;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
